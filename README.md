@@ -11,4 +11,4 @@ MainGui.java - sudoku z interfejsem graficzynm
 
 <img src="ReadmeImg/okno.png" width="400">
 
-<img src="ReadmeImg/rozwiazanie.png" width="400">
+<img src="ReadmeImg/rozwiazane.png" width="400">
