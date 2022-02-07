@@ -10,7 +10,7 @@ import java.util.InputMismatchException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class MainPlaceholder implements ActionListener{
+public class MainGui implements ActionListener{
 
     JFrame f;
     JPanel board;
@@ -30,7 +30,7 @@ public class MainPlaceholder implements ActionListener{
     /**
      * konstruktor
      */
-    MainPlaceholder(){
+    MainGui(){
         f = new JFrame("Sudoku");
         board= new JPanel();
 
@@ -127,8 +127,8 @@ public class MainPlaceholder implements ActionListener{
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof MainPlaceholder)) return false;
-        MainPlaceholder that = (MainPlaceholder) o;
+        if (!(o instanceof MainGui)) return false;
+        MainGui that = (MainGui) o;
         return Arrays.equals(cell, that.cell);
     }
 
@@ -344,7 +344,7 @@ public class MainPlaceholder implements ActionListener{
     }
 
     public static void main(String[] args) {
-        new MainPlaceholder();
+        new MainGui();
 
     }
 }
